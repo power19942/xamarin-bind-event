@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TelerikListViewDrag.CustomButton">
+    <ContentView.Content>
+        <StackLayout>
+            <Button x:Name="InnerButton" Text="click" Command="{Binding Command}" CommandParameter="{Binding CommandParameter}"/>
+            <Button x:Name="InnerButton2" Text="click2" Command="{Binding Command}" CommandParameter="{Binding CommandParameter}"/>
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>
